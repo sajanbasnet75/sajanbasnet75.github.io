@@ -1,5 +1,16 @@
-h1{
 
-	color:red;
-	font-style: italic;
+.banner{
+background: url("../cod.jpg") no-repeat fixed 0 0/cover;
+padding:0;
+background-position: center;
+background-position-x: 48%;
+background-position-y: 40%;
+   color: #fff;
+   font-weight:500;
+   font-size: 60px;
+ font-family: "Times New Roman", Times, serif;
+position: center;
+   
+
+
 }

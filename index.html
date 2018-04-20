@@ -1,14 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SajanBasnet</title>
-     <link rel="import" href="include.html"> 
+<title>SajanBasnet</title>
+    <link rel="import" href="include.html"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+    
+    <style>
+
+     @media only screen and (max-width: 768px) {
+          
+   		 #hello_wor{
+				margin-top:30px;
+				padding: 20px
+    	}
+    	#hello_wor>h1{
+    		color: #ffd;
+    		font-family: Tahoma, Verdana, Segoe, sans-serif;
+    		font-size: 42px;
+        	font-weight: 600;
+    	}
+    	#hello_wor>h2{
+    		font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    		font-size:28px;
+    		color:#333;
+   		 }
+
+   }
+    .hello_world{
+		margin-top:43px;
+		padding: 20px
+    }
+    .hello_world>h1{
+    	color: #ffd;
+    	font-family: Tahoma, Verdana, Segoe, sans-serif;
+    	font-size: 70px;
+        font-weight: 600;
+    }
+    .hello_world>h2{
+    	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    	font-size:44px;
+    	color:#333;
+    }
+    .background{
+    	background: url("images/bk8.jpg") no-repeat fixed 0 0/cover;
+    	background-blend-mode:soft-light;
+        background-position-x: 50%;
+        background-position-y: 77%;
+        min-height: 700px;
+        background-color: RGBA(109 ,189, 214, 0.1);
+    }
+    .my_imag{
+    }
+    #na-menu{
+    	display: none;
+    }
+    .navbar-collapse>ul>li>a{
+    	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    	font-weight:bolder;
+    	font-size: 20px;
+    	color: white;
+
+    } 
+    </style>
+
 </head>
 <body>
-<h1>Hello World </h1>
-<h2>Its Sajan Basnet</h2>
-<div style="font-size:3em; color:Tomato">
+ <div class="container-fluid background" style="border: 1px solid;">
+   	   
+  <nav class="navbar navbar-expand-lg navbar-light" style="">
+  	<a class="navbar-brand" id="na-menu" href="#">Menu</a>
+  	
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+    </button>
+
+  	<div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-fill" style="">
+      	<li class="nav-item active">
+        <a class="nav-link" href="#"><span style="color:white;padding:12px">Home</span> <span class="sr-only">(current)</span></a>
+      	</li>
+      	<li class="nav-item">
+        <a class="nav-link" href="#"><span style="color:white;padding:12px">About</span></a>
+      	</li>
+      	<li class="nav-item ">
+        <a class="nav-link" href="#" ><span style="color:white;padding:12px">Qualification</span></a>
+      	</li>
+      	<li class="nav-item">
+        <a class="nav-link" href="#"><span style="color:white;padding:12px">Work</span></a>
+      	</li>
+      	<li class="nav-item">
+        <a class="nav-link" href="#"><span style="color:white;padding:12px">Contact</span></a>
+      	</li>
+      </ul>
+
+      <ul class="nav" style="">
+      	<li class="nav-item" style="font-size:2em; color:Tomato;padding:12px">
+        <i class="fas fa-camera-retro"></i>
+      	</li>
+      	<li class="nav-item" style="font-size:2em; color:Tomato;padding:12px">
+        <i class="fas fa-linkedin"></i>
+      	</li>
+      	<li class="nav-item" style="font-size:2em; color:Tomato;padding:12px">
+        <i class="fas fa-camera-retro"></i>
+      	</li>
+      	<li class="nav-item" style="font-size:2em; color:Tomato;padding:12px">
+        <i class="fas fa-facebook-square"></i>
+      	</li>
+      	<li class="nav-item" style="font-size:2em; color:Tomato;padding:12px">
+        <i class="fas fa-camera-retro"></i>
+      	</li>
+      </ul>
+  </div>
+</nav>
+	<div class="container">
+ 		<div class="hello_world text-center " id="hello_wor" style=""> 
+      			<h1>Hello World</h1>
+      			<h2 style="padding:12px">I am <span style="color:#ffd;">S<span style=" border-bottom:1px solid #ada;">ajan Basne</span>t</span></h2>		
+ 		</div>
+
+ 		<div class="text-center my_imag" style=" margin-top:0px;padding:3px;">
+ 			<img class="img-fluid img-responsive img-circle" style="display:inline; border-radius:100%;" src="images/sajanss.jpg" width="150" height="150">
+ 		</div>
+ 	</div>
+ </div>
+	
+ <div style="font-size:3em; color:Tomato">
   <i class="fas fa-camera-retro"></i>
 </div>
+
 </body>
 </html>
