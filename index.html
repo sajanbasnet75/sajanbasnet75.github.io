@@ -32,6 +32,11 @@
     		color:#333;
    		 }
 
+        #backgrounds{
+        	background: url("images/saja.jpg") no-repeat fixed 0 0/cover;
+    		background-blend-mode:soft-light;
+        	min-height: 550px;
+        }
    }
     .hello_world{
 		margin-top:43px;
@@ -46,7 +51,7 @@
     .hello_world>h2{
     	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
     	font-size:40px;
-    	color:#333;
+    	color:#333;y
     }
     .background{
     	background: url("images/bk8.jpg") no-repeat fixed 0 0/cover;
@@ -76,7 +81,7 @@
 
 </head>
 <body>
- <div class="container-fluid background" style="border: 1px solid;">
+ <div class="container-fluid background" id="backgrounds" style="border: 1px solid;">
    	   
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: RGBA(50,50, 70, 0.1);border-radius:5%;">
   	<a class="navbar-brand" id="na-menu" href="#">Menu</a>
@@ -132,12 +137,13 @@
 	<div class="container">
  		<div class="hello_world text-center " id="hello_wor" style=""> 
       			<h1>Hello World</h1>
+      			<div class="text-center my_imag" style=" margin-top:0px;padding:3px;">
+ 			<img class="img-fluid img-responsive img-circle" style="display:inline; border-radius:100%;" src="images/sajanss.jpg" width="150" height="150">
+ 		</div>
       			<h2 style="padding:12px">I am <span style="color:#ffd;">S<span style=" border-bottom:1px solid #ada;">ajan Basne</span>t</span></h2>		
  		</div>
 
- 		<div class="text-center my_imag" style=" margin-top:0px;padding:3px;">
- 			<img class="img-fluid img-responsive img-circle" style="display:inline; border-radius:100%;" src="images/sajanss.jpg" width="150" height="150">
- 		</div>
+ 		
  	</div>
  </div>
 	
