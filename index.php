@@ -110,6 +110,7 @@
 
 </head>
 <body>
+<div class="container-fluid" style="background-color: RGBA(109 ,189, 214, 0.1);">	
  <div class="container background" id="backgrounds" style="border: 1px solid;">
    	   
   <nav class="navbar navbar-expand-lg navbar-light" style="">
@@ -200,6 +201,6 @@
 </div>
 
 </div>
-
+</div>
 </body>
 </html>
