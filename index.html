@@ -13,18 +13,32 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
     
     <style>
+     a:hover {
 
+        background-color: RGBA(100,100,100,0.5);
+        border-radius: 14%;
+     }
+
+     .iccon img:hover{
+      width:38px;
+      height: 38px;
+     }
+     @import url(https://fonts.googleapis.com/css?family=Merriweather:700);
      @media only screen and (max-width: 768px) {
-          
+      #canv{
+        display:none;
+      }    
    		 #hello_wor{
 				margin-top:30px;
 				padding: 20px
     	}
     	#hello_wor>h1{
     		color: #ffd;
-    		font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    		font-size: 40px;
+    		font-family: 'Merriweather', serif;
+    		font-size: 45px;
         	font-weight: 500;
+          letter-spacing:2px;
+  
     	}
     	#hello_wor>h2{
     		font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
@@ -35,10 +49,16 @@
         #backgrounds{
         	background: url("images/saja.jpg") no-repeat fixed 0 0/cover;
     		background-blend-mode:soft-light;
-        	min-height: 350px;
+         min-height: 320px;
+          position: static;
         }
+
         #nav_bar_mob{
         	background-color: #C9543B ;
+        }
+
+        #nav_items_mob{
+          padding:0px 0px 0px 35px;
         }
         #mob_icons{
     	width:18px;
@@ -46,6 +66,10 @@
         }
         #me{
         	display: none;
+        }
+
+        #abt_me_mob{
+          position: static;
         }
         #abt_me_p_m{
     	padding:13px;
@@ -57,13 +81,21 @@
     #abt_inner{padding:20px 12px 0px 12px;}
     #edu_row{padding-bottom: 60px;}
    }
+/*desktop css*/
+
+    .background{
+       position: absolute;
+  text-align: center;
+        min-height: 638px;
+        background-color: RGBA(100,100,100,0.2);
+    }
     .hello_world{
 		margin-top:150px;
 		padding: 20px
     }
     .hello_world>h1{
     	color: #ffd;
-    	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    	font-family:'Merriweather', serif;
     	font-size: 70px;
         font-weight: 560;
     }
@@ -71,14 +103,6 @@
     	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
     	font-size:40px;
     	color:#333;y
-    }
-    .background{
-    	background: url("images/bk8.jpg") no-repeat fixed 0 0/cover;
-    	background-blend-mode:soft-light;
-        background-position-x: 50%;
-        background-position-y: 77%;
-        min-height: 650px;
-        background-color: RGBA(109 ,189, 214, 0.1);
     }
     .my_imag{
     }
@@ -133,11 +157,9 @@
       width:180px;
     }
     </style>
-
 </head>
 <body> 
-
- <div class="container-fluid background" id="backgrounds" style="border: 1px solid;">
+ <div class="container-fluid background" id="backgrounds" style="">
    	   
   <nav class="navbar navbar-expand-lg navbar-light sm- sticky-top" style="">
   	
@@ -166,7 +188,7 @@
       	</li>
       </ul>
 
-      <ul class="nav" style="">
+      <ul class="nav iccon" id="nav_items_mob">
       	<li class="nav-item" style="padding:12px">
         	<a href="https://www.linkedin.com/in/sajan-basnet-b4b1b0148/" target="_blank"><img src="images/linkedin.png" class="icons" id="mob_icons"></a>
       	</li>
@@ -183,7 +205,7 @@
       		<a href="https://plus.google.com/u/0/101502552657747313370" target="_blank"><img src="images/google-plus.png" class="icons" id="mob_icons"></a>
       	</li>
       	<li class="nav-item" style="padding:10px">
-        	<a href="https://github.com/sajanbasnet75" target="_blank"><img src="images/github.png" class="icons" id="mob_icons"></a>   
+        	<a href="https://github.com/sajanbasnet75" target="_blank"><img src="images/github (1).png" class="icons" id="mob_icons"></a>   
       	</li>
       	<li class="nav-item" style="padding:10px">
         	<a href="https://mail.google.com/mail/?view=cm&fs=1&to=sajanbasnet75@gmail.com&su=SUBJECT&body=BODY" target="_blank"><img src="images/gmail.png" class="icons"  id="mob_icons"></a>   
@@ -200,10 +222,10 @@
  		</div>		
  		</div> 		
  	</div>
-
+<canvas id="canv"></canvas>
 
 <!--ABOUT ME-->	
-<div class="container-fluid about_me" style=" background-color: RGBA(109 ,189, 214,0.2);">
+<div class="container-fluid about_me" id="abt_me_mob" style=" background-color: RGBA(109 ,189, 214,0.2);">
 <div class="container">      
 <div class="row" >
   <div class="col-lg-12 abt_me_p" id="abt_me_p_m" >    
@@ -486,3 +508,4 @@
 </div>
 </body>
 </html>
+<script src="js/back.js"></script>
