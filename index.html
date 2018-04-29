@@ -13,8 +13,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
     
     <style>
-     a:hover {
-
+     .nav_list a:hover {
         background-color: RGBA(100,100,100,0.5);
         border-radius: 14%;
      }
@@ -84,6 +83,14 @@
     }
     #edu_col_mob{border-bottom:1px solid #C9543B;
     border-right:none;}
+    #pro_carso_mob img{
+          width: 350px;
+          height: 320px;
+    }
+    #edu_rows_mobi{
+      margin: 10px 0px 10px 0px;
+      padding: 6px;
+    }
 
    }
 /*desktop css*/
@@ -171,11 +178,16 @@
       border-right:1px solid #C9543B;
     }
     .skill_col{padding:12px 104px 2px 104px;}
-
+     
+    .edu_rows{
+      font-family: Georgia, serif;
+      padding:12px;
+      margin: 40px 0px 40px 0px;
+      border-bottom:1px solid grey;
+    }
     .carso_div{
       padding: 12px;
-      background-color:rgba(255,251,255,0.2);
-      border-radius: 20%;
+      border-radius: 5%;
     }
     .pro_carso>ol>li {
       cursor:pointer; 
@@ -186,12 +198,18 @@
     .pro_carso>ol>li:hover{
       background-color: #C9543B;
     }
+
+    .pro_carso img{
+      width: 750px;
+      height: 460px;
+      border-radius:10px; 
+    }
     </style>
 </head>
 <body> 
  <div class="container-fluid background" id="backgrounds" style="bordwer:1px solid red">
-  <div class="navig text-center" > 	   
-  <nav class="navbar navbar-expand-lg navbar-light " style="">
+  <div class="navig text-center sticky-top" > 	   
+  <nav class="navbar navbar-expand-lg navbar-light" style="">
   	
   	
   	<button class="btn-block navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" id="nav_bar_mob" >
@@ -200,7 +218,7 @@
     </button>
 
   	<div class="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto nav-fill" style="">
+      <ul class="navbar-nav mr-auto nav-fill nav_list" style="">
       	<li class="nav-item active">
         <a class="nav-link" href="#"><span style="color:white;padding:12px">Home</span> <span class="sr-only">(current)</span></a>
       	</li>
@@ -211,7 +229,7 @@
         <a class="nav-link" href="#" ><span style="color:white;padding:12px">Education</span></a>
       	</li>
       	<li class="nav-item">
-        <a class="nav-link" href="#"><span style="color:white;padding:12px">Work</span></a>
+        <a class="nav-link" href="#"><span style="color:white;padding:12px">Projects</span></a>
       	</li>
       	<li class="nav-item">
         <a class="nav-link" href="#"><span style="color:white;padding:12px">Contact</span></a>
@@ -539,8 +557,8 @@
 </div> 
 
  <!--PROJECT 1-->
-<div class="row edu_row" style="">
-        <div  class="col-12 col-sm-5 edu_row " style="">
+<div class="row edu_rows" style="" id="edu_rows_mobi">
+        <div  class="col-12 col-sm-7 edu_row " style="">
        <div class="carso_div">
             <div id="carousel-example-generic" class="carousel slide pro_carso" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -549,47 +567,82 @@
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="8"></li>
               </ol>
-              <div class="carousel-inner" role="listbox">
+              <div class="carousel-inner" role="listbox" id="pro_carso_mob">
                 <div class="carousel-item active">
-                  <img class="img-fluid " src="images/github.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/0Load.png">
                 </div>
                 <div class="carousel-item">
-                  <img class="img-fluid " src="images/facebook.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/1Login.png">
                 </div>
                 <div class="carousel-item">
-                  <img class="img-fluid " src="images/twitter.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/2home.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/3manageEmp.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/4Employeeform.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/5seach.png">
+                </div>
+                
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/6SearchResult.png">
                 </div>
 
                 <div class="carousel-item">
-                  <img class="img-fluid " src="images/pinterest.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/EMS/7update.png">
                 </div>
 
                 <div class="carousel-item">
-                  <img class="img-fluid rounded-circle" src="images/linkedin.png">
+                  <img class="img-fluid img-thumbnail" src="images/projects/EMS/8AdminPanel.png">
                 </div>
-
               </div>
             </div>
         </div>  
         </div>
 
-        <div class="col-12 col-sm-7  align-self-center text-center">
-          <h1>Project1</h1>
-          <p>this project is made from ad ma mam ma mma m</p>
-          <a href="www.github.com">Github Link</a>
+        <div class="col-12 col-sm-5  align-self-center text-center">
+          <h1 class="text-danger">Employee Management System</h1>
+          <p>A simple CRUD application made with JAVA and sqlite as database for management of employees</p>
+          <a href="https://github.com/sajanbasnet75/EMS" target="_blank" class="btn btn-outline-info">Github Link</a>
         </div>
 </div>
 
  <!--PROJECT 2-->
-<div class="row edu_row" style="">  
-        <div class="col-12 col-sm-7  align-self-center text-center">
-          <h1>Project1</h1>
-          <p>this project is made from ad ma mam ma mma m</p>
-          <a href="www.github.com">Github Link</a>
+<div class="row edu_rows" style="" id="edu_rows_mobi">  
+        <div class="col-12 col-sm-5   text-center">
+          <h1 class="text-danger">Online Hospital Service</h1>
+          <p>A web based application which aims to provide the basic services of the hospital in an effective and efficient ways.</p>
+          <ul class="list-group-flush text-left"><h5 class="text-info">Services</h5>
+            <li>Booking Appointments with Doctors</li>
+            <li>Searching Doctors</li>
+            <li>News and Video Portals</li>
+            <li>Ask a Question</li>
+          </ul>
+
+          <ul class="list-group-flush text-left"><h5 class="text-info">Features</h5>
+            <li>Email Verifications</li>
+            <li>Friendly UI</li>
+            <li>SQL injection free</li>
+          </ul>
+          
+          <ul class="list-group-flush text-left"><h5 class="text-info">Tools Used</h5>
+            <li>HTML/CSS/Bootstrap</li>
+            <li>Jquery</li>
+            <li>PHP</li>
+            <li>MySql</li>
+          </ul>
+          <a href="https://github.com/sajanbasnet75/OHS" target="_blank" class="btn btn-outline-info">Github Link</a>
         </div>
          
-         <div  class="col-12 col-sm-5 edu_row " style="">
+         <div  class="col-12 col-sm-7 edu_row align-self-center  " style="">
        <div class="carso_div">
             <div id="carousel-example-generic_2" class="carousel slide pro_carso" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -598,25 +651,60 @@
                 <li data-target="#carousel-example-generic_2" data-slide-to="2"></li>
                 <li data-target="#carousel-example-generic_2" data-slide-to="3"></li>
                 <li data-target="#carousel-example-generic_2" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic_2" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic_2" data-slide-to="6"></li>
+                <li data-target="#carousel-example-generic_2" data-slide-to="7"></li>
+                <li data-target="#carousel-example-generic_2" data-slide-to="8"></li>
+                <li data-target="#carousel-example-generic_2" data-slide-to="9"></li>
+                <li data-target="#carousel-example-generic_2" data-slide-to="10"></li>
+                <li data-target="#carousel-example-generic_2" data-slide-to="11"></li>
               </ol>
-              <div class="carousel-inner" role="listbox">
+              
+              <div class="carousel-inner" role="listbox" id="pro_carso_mob">
                 <div class="carousel-item active">
-                  <img class="img-fluid " src="images/google-plus.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/1home.png">
                 </div>
                 <div class="carousel-item">
-                  <img class="img-fluid " src="images/github.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/2.png">
                 </div>
                 <div class="carousel-item">
-                  <img class="img-fluid " src="images/me.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/3.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/4.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/5.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/6.png">
+                </div>
+                
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/7.png">
                 </div>
 
                 <div class="carousel-item">
-                  <img class="img-fluid " src="images/pinterest.png">
+                  <img class="img-fluid img-thumbnail " src="images/projects/ohs/8.png">
                 </div>
 
                 <div class="carousel-item">
-                  <img class="img-fluid rounded-circle" src="images/linkedin.png">
+                  <img class="img-fluid img-thumbnail" src="images/projects/ohs/9.png">
                 </div>
+
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail" src="images/projects/ohs/10.png">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail" src="images/projects/ohs/11.png">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="img-fluid img-thumbnail" src="images/projects/ohs/12.png">
+                </div>
+              </div>
+
 
               </div>
             </div>
@@ -626,47 +714,7 @@
 
 
   <!--PROJECT 3-->
-  <div class="row edu_row" style="">
-        <div  class="col-12 col-sm-5 edu_row " style="">
-       <div class="carso_div">
-            <div id="carousel-example-generic_3" class="carousel slide pro_carso" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic_3" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic_3" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic_3" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic_3" data-slide-to="3"></li>
-                <li data-target="#carousel-example-generic_3" data-slide-to="4"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="img-fluid " src="images/github.png">
-                </div>
-                <div class="carousel-item">
-                  <img class="img-fluid " src="images/facebook.png">
-                </div>
-                <div class="carousel-item">
-                  <img class="img-fluid " src="images/twitter.png">
-                </div>
-
-                <div class="carousel-item">
-                  <img class="img-fluid " src="images/pinterest.png">
-                </div>
-
-                <div class="carousel-item">
-                  <img class="img-fluid rounded-circle" src="images/linkedin.png">
-                </div>
-
-              </div>
-            </div>
-        </div>  
-        </div>
-
-        <div class="col-12 col-sm-7  align-self-center text-center">
-          <h1>Project1</h1>
-          <p>this project is made from ad ma mam ma mma m</p>
-          <a href="www.github.com">Github Link</a>
-        </div>
-</div>
+  
 
   </div>
 
