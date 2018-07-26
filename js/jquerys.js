@@ -1,4 +1,3 @@
-
 $(window)
 
 .on('load',function(){
@@ -6,10 +5,12 @@ $(".loading").fadeOut(2400);
 });
 
 
+
 $(document).ready(function(){
  if($(window).width()<=768){
    $('#mob_jq2').insertBefore('#mob_jq')
  }
+
 
 $(".nav_list").find("a").click(function(e) {
     e.preventDefault();
