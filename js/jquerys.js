@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
  
-$(".loading").fadeOut(2400);
+$(".loading").fadeOut(3400);
  if($(window).width()<=768){
    $('#mob_jq2').insertBefore('#mob_jq')
  }
