@@ -1,7 +1,7 @@
 $(window)
 
 .on('load',function(){
-$(".loading").fadeOut(2400);
+$(".loading").fadeOut(1800);
 });
 
 
