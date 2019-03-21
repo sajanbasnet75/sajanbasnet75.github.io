@@ -11,7 +11,7 @@ list-style: none;
 }
 #bg-img{
 background-color: rgba(100,100,800,1);
-background:url(../images/jpg/img-hero-image.jpg);
+background:url(../../images/jpg/img-hero-image.jpg);
 background-color: rgba(000,010,000,0.6);
 
 min-height: 320px;
@@ -198,7 +198,7 @@ list-style: none;
 }
 li.globe{
 padding: 30px 0px 30px 28px;
-background: url('../images/png/globe.png')no-repeat left 26px;
+background: url('../../images/png/globe.png')no-repeat left 26px;
 display: block;
 }
 li.globes{
