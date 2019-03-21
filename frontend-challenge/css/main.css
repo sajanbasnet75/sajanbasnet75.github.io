@@ -11,7 +11,7 @@ list-style: none;
 }
 #bg-img{
 background-color: rgba(100,100,800,1);
-background:url(../../images/jpg/img-hero-image.jpg);
+background:url(../images/jpg/img-hero-image.jpg);
 background-color: rgba(000,010,000,0.6);
 
 min-height: 320px;
@@ -19,13 +19,12 @@ position:unset;
 background-blend-mode: soft-light;
 width: 1440px;
 height: 700px;
-border: 1px solid green;
 
 }
 .bg_header {
 width: 1440px;
 height: 60px;
-margin-top: 51px;
+padding-top: 51px;
 }
 .logo{
 width: 121px;
@@ -33,11 +32,14 @@ height: 35px;
 object-fit: contain;
 
 }
+
 .nav_list{
 overflow: auto;
 margin: auto 32px auto 32px;
 
 }
+
+.nav_list>ul{float: right; padding:10px;}
 .nav-links{
 display: inline;
 padding: 18px;
@@ -63,6 +65,11 @@ letter-spacing: normal;
 color: white;
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.headings{
+	text-align:center; 
+	margin-top: 199px;
+}
 .Are-you-a-frontend-n {
 font-family: Roboto;
 font-size: 82px;
@@ -74,10 +81,16 @@ letter-spacing: normal;
 color: #ffffff;
 margin:auto;
 }
+
+
 @media (max-width: 676px) {
 #Are-you-a-frontend-mob{
 font-size: 30px;
 }
+}
+
+.heading_parg{
+	margin-top: 29px;
 }
 .Frontend-ninjas-are {
 
@@ -110,13 +123,9 @@ letter-spacing: normal;
 text-align: center;
 color: #ffffff;
 }
-.colum{
-position: relative;
-width: 100%;
-padding-right: 15px;
-padding-left: 15px;
-}
-.What-you-should-have {
+
+.div-box{margin-top:100px;}
+.div-box-headings{
 font-family: Roboto;
 font-size: 48px;
 font-weight: normal;
@@ -127,8 +136,17 @@ letter-spacing: normal;
 text-align: center;
 color: #9b9b9b;
 }
-.Attention-to-detail {
 
+.div-box-items{
+	margin:60px 10px 10px 10px; 
+	text-align: center;
+}
+.div-box-items-parag{
+padding:40px 0px 10px 0px;
+
+}
+
+.div-box-items-parag>p:first-child{
 font-family: Roboto;
 font-size: 18px;
 font-weight: bold;
@@ -136,10 +154,10 @@ font-style: normal;
 font-stretch: normal;
 line-height: 1.33;
 letter-spacing: normal;
-
-color: #27ad6c;
+color: #27ad6c;	
 }
-.We-look-for-attentio {
+
+.div-box-items-parag>p:last-child{
 opacity: 0.78;
 font-family: Roboto;
 font-size: 14px;
@@ -150,7 +168,22 @@ line-height: 1.57;
 letter-spacing: normal;
 
 color: #4a4a4a;
+
 }
+
+.div-box-2{
+	 margin-top: 70px;
+}
+
+* .list-styles:first-child{
+	padding:0px 100px 0px 50px; 
+	border-right: 1px solid #88c542 !important;
+}
+
+.list-styles-right{
+	padding:0px 100px 0px 50px;
+}
+
 .list-styles ul>a>li {
 font-family: Roboto;
 font-size: 16px;
@@ -165,7 +198,7 @@ list-style: none;
 }
 li.globe{
 padding: 30px 0px 30px 28px;
-background: url('../../images/png/globe.png')no-repeat left 26px;
+background: url('../images/png/globe.png')no-repeat left 26px;
 display: block;
 }
 li.globes{
@@ -212,6 +245,10 @@ hr{
  	top: 7px;
  }
 
+ .div-box-3{
+ 	margin-top: 40px;
+ }
+
  .Just-because-__ {
  	padding: 6px;
   font-family: Roboto;
@@ -224,8 +261,22 @@ hr{
   text-align: center;
   color:#9b9b9b;
 }
+.foods-img{
+	text-align: center;
+}
+.foods-img>div{
+	padding: 0px;
+}
 
-.Tailored-objectives {
+.div-box-4{
+	padding-top: 100px;background-color:#423633;
+}
+
+.div-box-4-items{
+text-align: left; padding:10px;
+
+}
+.globee>span{
   
   font-family: Roboto;
   font-size: 18px;
@@ -237,7 +288,7 @@ hr{
   text-align: left;
   color: #ffffff;
 }
-.A-small-river-named {
+.globee>p{
   opacity: 0.5;
   font-family: Roboto;
   font-size: 16px;
