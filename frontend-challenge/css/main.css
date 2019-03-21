@@ -1,0 +1,277 @@
+img{
+max-width: 100%;
+height: auto;
+}
+a{
+text-decoration: none !important;
+cursor:pointer;
+}
+ul{
+list-style: none;
+}
+#bg-img{
+background-color: rgba(100,100,800,1);
+background:url(../../images/jpg/img-hero-image.jpg);
+background-color: rgba(000,010,000,0.6);
+
+min-height: 320px;
+position:unset;
+background-blend-mode: soft-light;
+width: 1440px;
+height: 700px;
+border: 1px solid green;
+
+}
+.bg_header {
+width: 1440px;
+height: 60px;
+margin-top: 51px;
+}
+.logo{
+width: 121px;
+height: 35px;
+object-fit: contain;
+
+}
+.nav_list{
+overflow: auto;
+margin: auto 32px auto 32px;
+
+}
+.nav-links{
+display: inline;
+padding: 18px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+
+}
+ul>li>a>span {
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: white;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.Are-you-a-frontend-n {
+font-family: Roboto;
+font-size: 82px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #ffffff;
+margin:auto;
+}
+@media (max-width: 676px) {
+#Are-you-a-frontend-mob{
+font-size: 30px;
+}
+}
+.Frontend-ninjas-are {
+
+opacity: 0.7;
+font-family: Roboto;
+font-size: 20px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.4;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+}
+.btn_read-more_bg {
+width: 192px;
+height: 67px;
+border-radius: 4px;
+box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.9);
+background-color:#27ad6c;
+}
+.Apply-now {
+font-family: Roboto;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+}
+.colum{
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+}
+.What-you-should-have {
+font-family: Roboto;
+font-size: 48px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1;
+letter-spacing: normal;
+text-align: center;
+color: #9b9b9b;
+}
+.Attention-to-detail {
+
+font-family: Roboto;
+font-size: 18px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.33;
+letter-spacing: normal;
+
+color: #27ad6c;
+}
+.We-look-for-attentio {
+opacity: 0.78;
+font-family: Roboto;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.57;
+letter-spacing: normal;
+
+color: #4a4a4a;
+}
+.list-styles ul>a>li {
+font-family: Roboto;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #27ad6c;
+list-style: none;
+}
+li.globe{
+padding: 30px 0px 30px 28px;
+background: url('../../images/png/globe.png')no-repeat left 26px;
+display: block;
+}
+li.globes{
+padding: 30px 0px 30px 28px;	}
+.Resources {
+font-family: Roboto;
+font-size: 48px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color:#9b9b9b;
+text-align: left;
+}
+.-hours-ago {
+opacity: 0.8;
+font-family: Roboto;
+font-size: 13px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #9b9b9b;
+padding-top: 5px;
+}
+
+hr{
+	width: 123px;
+  height: 1px;
+  background-color: #88c542;
+ }
+ @media (max-width: 776px) {
+ .hr-line{
+ 	display: none;
+ }
+ 
+ }
+ .hr-line{
+ 	position:relative;
+ 	right:-70px;
+ 	top: 7px;
+ }
+
+ .Just-because-__ {
+ 	padding: 6px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color:#9b9b9b;
+}
+
+.Tailored-objectives {
+  
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.A-small-river-named {
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  
+  text-align: justify-all;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.globee{
+padding: 30px 0px 30px 65px;
+}
+
+.footer_bg {
+  background-color:#333333;
+  display:flex;
+  padding: 20px 10px 0px 10px;
+}
+
+.-Copyright-2017 {
+  
+  display: inline;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding:0px 12px 0px 12px;
+}
