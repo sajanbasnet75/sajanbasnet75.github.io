@@ -18,6 +18,8 @@ position:unset;
 background-blend-mode: soft-light;
 width: 1440px;
 height: 700px;
+background-repeat:no-repeat;
+background-size: cover; 
 }
 .bg_header {
 width: 1440px;
