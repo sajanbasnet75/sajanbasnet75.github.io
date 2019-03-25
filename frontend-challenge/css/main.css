@@ -73,7 +73,6 @@ color:#47ad6d;
 float: right;
 padding: 5px;
 }
-
 .top-nav{
 display: none;
 margin: 10px 20px 10px 20px;
@@ -93,6 +92,9 @@ line-height: normal;
 letter-spacing: normal;
 color: #ffffff;
 margin:auto;
+-webkit-text-fill-color: transparent;
+background-image: url("http://66.media.tumblr.com/9d5be60c175cdbe15e875fef01b9a66b/tumblr_ntz3mmEFFr1twd8ddo1_500.gif");
+-webkit-background-clip: text;
 }
 .heading_parg{
 margin-top: 29px;
@@ -250,7 +252,6 @@ padding: 30px 0px 30px 0px;
 .Resources{
 padding: 0px;
 }
-
 }
 .hr-line{
 position:relative;
@@ -285,7 +286,6 @@ padding-top: 100px;background-color:#423633;
 text-align: left; padding:10px;
 }
 .globee>span{
-
 font-family: Roboto;
 font-size: 18px;
 font-weight: bold;
@@ -305,7 +305,6 @@ font-style: normal;
 font-stretch: normal;
 line-height: 1.5;
 letter-spacing: normal;
-
 text-align: justify-all;
 color: #ffffff;
 padding-top: 10px;
@@ -319,7 +318,6 @@ display:flex;
 padding: 20px 10px 0px 10px;
 }
 .copyright-text {
-
 display: inline;
 font-family: Roboto;
 font-size: 14px;
