@@ -11,7 +11,7 @@ list-style: none;
 }
 #bg-img{
 background-color: rgba(100,100,800,1);
-background:url(../../images/jpg/img-hero-image.jpg);
+background-image:url(../../images/jpg/img-hero-image.jpg);
 background-color: rgba(000,010,000,0.6);
 min-height: 320px;
 position:unset;
@@ -96,11 +96,17 @@ line-height: normal;
 letter-spacing: normal;
 color: #ffffff;
 margin:auto;
+position: relative;
+flex: 1;
 -webkit-text-fill-color: transparent;
 -moz-text-fill-color: transparent;
 background-image: url("http://66.media.tumblr.com/9d5be60c175cdbe15e875fef01b9a66b/tumblr_ntz3mmEFFr1twd8ddo1_500.gif");
 -webkit-background-clip: text;
 -moz-background-clip: text;
+
+-webkit-background-repeat: no-repeat;
+-moz-background-repeat: no-repeat;
+
 }
 .heading_parg{
 margin-top: 29px;
