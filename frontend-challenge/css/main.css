@@ -18,6 +18,11 @@ position:unset;
 background-blend-mode: soft-light;
 width: 1440px;
 height: 700px;
+-webkit-background-size:cover;
+-webkit-background-repeat: no-repeat;
+-moz-background-size:cover;
+-moz-background-repeat: no-repeat;
+
 }
 .bg_header {
 width: 1440px;
@@ -93,8 +98,10 @@ letter-spacing: normal;
 color: #ffffff;
 margin:auto;
 -webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
 background-image: url("http://66.media.tumblr.com/9d5be60c175cdbe15e875fef01b9a66b/tumblr_ntz3mmEFFr1twd8ddo1_500.gif");
 -webkit-background-clip: text;
+-moz-background-clip: text;
 }
 .heading_parg{
 margin-top: 29px;
