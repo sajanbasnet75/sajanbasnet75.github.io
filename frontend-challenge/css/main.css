@@ -11,15 +11,13 @@ list-style: none;
 }
 #bg-img{
 background-color: rgba(100,100,800,1);
-background:url(../../images/jpg/img-hero-image.jpg);
+background:url(../../images/jpg/img-hero-image.jpg) no-repeat fixed 0 0/cover;
 background-color: rgba(000,010,000,0.6);
 min-height: 320px;
 position:unset;
 background-blend-mode: soft-light;
 width: 1440px;
 height: 700px;
-background-repeat:no-repeat;
-background-size: cover; 
 }
 .bg_header {
 width: 1440px;
