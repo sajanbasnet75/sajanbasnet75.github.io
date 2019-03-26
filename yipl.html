@@ -10,6 +10,7 @@
 		src="https://code.jquery.com/jquery-3.3.1.js"
 		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 		crossorigin="anonymous"></script>
+		<link rel="shortcut icon" href="images/png/ic-separator-frontend-ninja.png" type="image/png">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
@@ -18,30 +19,36 @@
 	</head>
 	
 	<body>
-		<div id="bg-img" class="bg-img img-fluid ">
-			<div class="container-fluid bg_header">
-				
-				<nav  class="nav_list" >
+		<div id="bg-img" class="img-fluid ">
+				<div class="container-fluid">
+			<div class="row navig">	
+				<nav  class="col-12 col-sm-12 col-md-7">
 					<img src="images/png/logo-frontend-ninja_2.png" class="logo" >
 					<a href="#" class="icon"><i class="fa fa-bars"></i></a>
+				</nav>	
+				<div class="col-md-5 col-12 col-sm-12">
 					<ul class="top-nav" >
 						<li class="nav-links">
-							<a  href="#hello_wor" ><span>Home</span></a>
+							<a  href="#" ><span>Home</span></a>
 						</li>
 						<li class="nav-links">
-							<a class=" " href="#abt_me_mob"><span>About</span></a>
+							<a class=" " href="#"><span>About</span></a>
 						</li>
 						<li class="nav-links">
-							<a class=" " href="#skills"><span>Work</span></a>
+							<a class=" " href="#"><span>Work</span></a>
 						</li>
-						<li class="nav-links " >
-							<a class=" " href="#Edu" ><span>Contact</span></a>
+						<li class="nav-links">
+							<a class="" href="#" ><span>Contact</span></a>
 						</li>
-						<li class="nav-links " >
-							<button  style="border: none;background-color: transparent;"><img src="images/png/ic-search.png" alt="" width="17px" height="17px"></button>
+						<li class="nav-links" id="search-btn" >
+							<a href="#"><img src="images/png/ic-search.png" alt="" width="17px" height="17px"></a>
+
 						</li>
+						<li class="nav-links" ><input type="search" name="" value="" placeholder="Search here.." id="search-box" style="margin-top: 6px;"> </li>
+
 					</ul>
-				</nav>
+				</div>
+				</div>
 			</div>
 			<div class="container-fluid headings" >
 				<span id="Are-you-a-frontend-mob">Are you a frontend ninja?</span>
@@ -244,10 +251,10 @@
 				<div class="col-md-6 col-lg-6 col-sm-12 col-12 copyright-text">
 					<p >© Copyright 2017</p>
 				</div>
-				<div class="col-md-6 col-lg-6 col-sm-12 col-12">
+				<div class="col-md-6 col-lg-6 col-sm-12 col-12"  style="display: inline-block;">
 					<nav  class="">
 						
-						<ul  style="float: right;">
+						<ul  style="text-align: center;" class="foot-nav">
 							<li class="nav-links ">
 								<a  href="#"><span>Home</span></a>
 							</li>
@@ -263,4 +270,4 @@
 			</div>
 		</footer>
 	</body>
-</html>	
+</html>
