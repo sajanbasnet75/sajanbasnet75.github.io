@@ -2,8 +2,8 @@ $(window)
 .on('load',function(){
 });
 $(document).ready(function(){
-	
-$(".loading").fadeOut(1800);
+
+$(".loading").fadeOut(2800);
 let clicks=0;
 $('#nav_bar_mob').click(function(event){
 console.log(clicks);
