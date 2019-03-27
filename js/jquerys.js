@@ -3,7 +3,7 @@ $(window)
 });
 $(document).ready(function(){
 
-$(".loading").fadeOut(2800);
+$(".loading").fadeOut(2000);
 let clicks=0;
 $('#nav_bar_mob').click(function(event){
 console.log(clicks);

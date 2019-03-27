@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	let loading = $(".loading");
+loading.delay(loading.attr("delay-hide")).fadeOut();	
 let top_nav=$('.top-nav');
 let clicks=0;
 let search_click=0;
