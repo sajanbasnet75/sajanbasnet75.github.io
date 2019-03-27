@@ -83,6 +83,11 @@ width: 121px;
 height: 35px;
 margin-left: 20px;
 }
+@media(max-width: 768px){
+  .logo{
+    margin-left: 2px;
+  }
+}
 .navig{
 padding: 60px 22px 0px 22px;
 }
