@@ -16,7 +16,7 @@ color: '#47ad6d'
 else{
 top_nav.slideUp(400);
 
-$('.headings').css('margin-top', '199px');
+$('.headings').css('margin-top', '150px');
 clicks=0;
 $(this).css({
 color: '#47ad6d'
